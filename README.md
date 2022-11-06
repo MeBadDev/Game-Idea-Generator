@@ -24,13 +24,14 @@ If you feel we should modify some rules, feel free to open a issue/pull request!
 ## Why did it give me blank rules?
 Remove every blank lines in `place.txt`, `rules.txt` and` types.txt`
 
+Remember to check the end of those file!
 ## What does those settings mean?
 `filepaths`: paths to the file containing all of your rules
 
 `generate_count`: how much game idea should it generate once
-Remember to check the end of those file!
+
 ## Why does its code looks like trash?
-because it is! i am a completely noob at python. can can somebody open a PR or something?
+because it is! i am a completely noob at python. can somebody open a PR or something?
 ## I have some question!
 You can contact me by opening an issue or MSG me on discord
 
