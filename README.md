@@ -26,6 +26,7 @@ Remove every blank lines in `place.txt`, `rules.txt` and` types.txt`
 
 ## What does those settings mean?
 `filepaths`: paths to the file containing all of your rules
+
 `generate_count`: how much game idea should it generate once
 Remember to check the end of those file!
 ## Why does its code looks like trash?
