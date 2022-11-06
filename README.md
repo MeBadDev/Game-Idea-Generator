@@ -13,3 +13,8 @@ If you feel we should modify some rules, feel free to open a issue/pull request!
 Remove every blank lines in place.txt, rules.txt and types.txt
 
 Remember to check the end of those file!
+
+## I have some question!
+You can contact me by opening an issue or MSG me on discord
+
+My discord: MeBadDev#7770
