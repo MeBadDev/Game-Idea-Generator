@@ -12,6 +12,6 @@ you can become bigger/smaller
 you must draw your own (something)
 the world change when you die
 you can blow up everything
-youre health become lower when you use moves
-youre health become lower and lower until you reach the goal
+your health become lower when you use moves
+your health become lower and lower until you reach the goal
 you race with your enemy
