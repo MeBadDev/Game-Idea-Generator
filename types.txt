@@ -2,7 +2,8 @@ platformer game
 shooter game
 platform-shooter game
 tower defense simulator
-fps game
+parkour fps
+shooter fps
 arcade game
 trolling game
 horror game
@@ -12,3 +13,4 @@ rhythm game
 building game
 puzzle game
 sport game
+bullet hell

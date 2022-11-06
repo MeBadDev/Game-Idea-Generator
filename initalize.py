@@ -2,7 +2,6 @@ from os.path import exists
 from json import load
 
 def initalize():
-    
     if exists('config.json'):
         config_file = open('config.json')
         config = load(config_file)

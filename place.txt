@@ -13,3 +13,5 @@ on a planet
 on hills
 on a bridge
 in a house
+on the road
+in a park
