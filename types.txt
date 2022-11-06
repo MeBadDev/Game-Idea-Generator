@@ -1,0 +1,12 @@
+platformer game
+shooter game
+platform-shooter game
+tower defense simulator
+fps game
+arcade game
+trolling game
+horror game
+RPG game
+rhythm game
+building game
+puzzle game

@@ -1,0 +1,11 @@
+{   
+    "filepaths": {
+        "types":"types.txt",
+        "rules":"rules.txt",
+        "place":"place.txt"
+    },
+
+    "generate_count": 5
+
+    
+}
