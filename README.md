@@ -12,7 +12,7 @@ A shooter game where youre health become lower and lower until you reach the goa
 ## Why another game idea generator?
 I feel like others are giving us bad idea and not really customizable
 ## How does this fix it?
-you can fully customize everything. from the code of entire generator, to settings, what should be inside...
+you can fully customize everything. from the code of entire generator, to settings, what could it generate...
 ## How do i generate?
 Run main.py (you need to install python first)
 ## Where can i change settings?
@@ -22,7 +22,7 @@ just change `place.txt`, `rules.txt` or `types.txt`
 
 If you feel we should modify some rules, feel free to open a issue/pull request!
 ## Why did it give me blank rules?
-Remove every blank lines in `place.txt`, `rules.txt` and` types.tx`t
+Remove every blank lines in `place.txt`, `rules.txt` and` types.txt`
 
 Remember to check the end of those file!
 ## Why does its code looks like trash?
