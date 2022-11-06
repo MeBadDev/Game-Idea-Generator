@@ -10,3 +10,4 @@ RPG game
 rhythm game
 building game
 puzzle game
+sport game
