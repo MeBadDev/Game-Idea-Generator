@@ -1,6 +1,6 @@
 from os.path import exists
 from json import load
-
+import requests
 def initalize():
     if exists('config.json'):
         config_file = open('config.json')
@@ -17,13 +17,18 @@ def initalize():
 
         
         
-    else:    
-        raise Exception("can't find config.json, make sure it is in the same folder, or get a new one on GitHub")
-            
-
+    else:
+        print("no config.json! downloading one from github")
+        config_json = requests.get('https://raw.githubusercontent.com/MeBadDev/Game-Idea-Generator/master/config.json')
+        f = open('config.json','w')
+        f.write(str(config_json.content.decode()))
+        f.close()
 def get_result(filepath="main.py"):
     f = open(filepath,'r')
     contents = f.read()
     f.close()
     return contents
     
+
+if __name__ == '__main__':
+    initalize()
