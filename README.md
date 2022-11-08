@@ -19,11 +19,11 @@ Run main.py (you need to install python first)
 ## Where can i change settings?
 There are only a few settings(right now). you can find them in config.json
 ## What if i want to add my own rules/want to remove a rule?
-just change `place.txt`, `rules.txt` or `types.txt`
+just change `rules/place.txt`, `rules.txt` or `rules/types.txt`
 
 If you feel we should modify some rules, feel free to open a issue/pull request!
 ## Why did it give me blank rules?
-Remove every blank lines in `place.txt`, `rules.txt` and` types.txt`
+Remove every blank lines in `rules/place.txt`, `rules.txt` and` rules/types.txt`
 
 Remember to check the end of those file!
 ## What does those settings mean?

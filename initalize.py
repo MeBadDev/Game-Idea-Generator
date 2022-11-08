@@ -2,7 +2,7 @@ from os.path import exists
 from json import load
 import requests
 def initalize():
-    for path_config in ['place.txt','rules.txt','types.txt']:
+    for path_config in ['rules/place.txt','rules.txt','rules/types.txt']:
         if exists(path_config):
             print(f'{path_config} found!')
         else:
