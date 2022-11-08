@@ -12,13 +12,13 @@ REMOTE_FILE_PATH = {
     "rules/types.txt" : "https://raw.githubusercontent.com/MeBadDev/Game-Idea-Generator/master/rules/types.txt",
 }
 
-
-for files in REMOTE_FILE_PATH:
-    if not exists(files):
-        print(f'{files} not found! redownloading...')
-        r = get(REMOTE_FILE_PATH[files]).content
-        f = open(files,'w+')
-        f.write(r.decode().replace('\n',''))
-        f.close()
-    else:
-        print(f'{files}' )
+def reset():
+	for files in REMOTE_FILE_PATH:
+		if not exists(files):
+			print(f'{files} not found! redownloading...')
+			r = get(REMOTE_FILE_PATH[files]).content
+			f = open(files,'w+')
+			f.write(r.decode().replace('\n',''))
+			f.close()
+		else:
+			print(f'{files}' )
