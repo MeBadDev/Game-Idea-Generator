@@ -14,8 +14,11 @@ I feel like others are giving us bad idea and not really customizable
 ## How does this fix it?
 you can fully customize everything. from the code of entire generator, to settings, what could it generate...
 ## How do i use it?
-download the entire respository
-Run main.py (you need to install python first)
+1. download the lastest release
+2. you will see a lot of file.
+3. run `main.exe`
+4. star this respository
+5. please help me improve my code by open pull requests (if you can)
 ## Where can i change settings?
 There are only a few settings(right now). you can find them in config.json
 ## What if i want to add my own rules/want to remove a rule?
