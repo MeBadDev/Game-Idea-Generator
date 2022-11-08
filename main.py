@@ -3,20 +3,19 @@ from json import load
 from random import choice
 initalize()
 settings = {
-    'types':[],
-    'rules':[],
-    'place':[]
+    'types.txt':[],
+    'rules.txt':[],
+    'place.txt':[]
             }
 generate_count = 0
 config_file = open('config.json')
 config = load(config_file)
 config_file.close()
 
-for keys in config['filepaths']:
-    value = config['filepaths'][keys]
+for value in ['place.txt','rules.txt','types.txt']:
     f = open(value)
     contents = f.read().split('\n')
-    settings[keys].extend(contents)
+    settings[value].extend(contents)
     f.close()
 generate_count = config['generate_count']
 print("""
@@ -26,7 +25,7 @@ print("""
       -------------------
      """)
 def get_idea():
-    return "A %s where %s %s" % (choice(settings['types']), choice(settings['rules']), choice(settings['place']))
+    return "A %s where %s %s" % (choice(settings['types.txt']), choice(settings['rules.txt']), choice(settings['place.txt']))
 
 
 for counts in range(generate_count):

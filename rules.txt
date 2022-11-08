@@ -12,7 +12,6 @@ you can become bigger/smaller
 you must draw your own (something)
 the world change when you die
 you can blow up everything
-your health become lower when you use moves
 your health become lower and lower until you reach the goal
 you race with your enemy
 you can oneshot every enemy
